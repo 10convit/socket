@@ -1,0 +1,19 @@
+#pane{
+  -fx-background-color: linear-gradient(from 0px 0px to 0px 52px, #a3e8fa, #ffffff)
+}
+
+#showUp{
+  text-area-background: linear-gradient(from 0px 141px to 0px 282px, reflect, #d5f6ff, #ffffff)
+}
+
+.text-area {
+    text-area-background: white ;
+}
+
+.text-area .content {
+    -fx-background-color: text-area-background ;
+}
+
+.text-area   {
+    -fx-text-fill: black;
+}

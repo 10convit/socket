@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="647.2" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ControllerClient">
+    <children>
+        <TextField fx:id="input" layoutX="19.0" layoutY="353.0" onAction="#getInputData" prefHeight="33.0" prefWidth="607.0" promptText="Nhập" AnchorPane.bottomAnchor="10.0" AnchorPane.topAnchor="357.0">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+        <TextArea fx:id="showUp" editable="false" focusTraversable="false" layoutX="20.0" layoutY="65.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="607.0" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></TextArea>
+      <Text fx:id="name" layoutX="32.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Người dùng" wrappingWidth="171.9749755859375">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="option" layoutX="585.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="32.0" />
+    </children>
+</AnchorPane>
