@@ -1,5 +1,5 @@
 # Socket Chat
-Bài tập lớn mạng máy tính
+Bài tập lớn mạng máy tính.
 Đây là chương trình đơn giản cho phép trò chuyện giữa 2 người dùng với nhau thông qua mô hình Client - Server.
 Ngôn ngữ sử dụng: Java.
 Thư viện sử dụng: JavaFx.
